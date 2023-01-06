@@ -1,0 +1,27 @@
+.head{
+      color: brown;
+      text-align: center;
+}
+.blog{
+    color: blueviolet;
+    text-align: center;
+    margin: 20px;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+.form{
+    background-color: burlywood;
+    border: 10px;
+    margin: 20px;
+}
+table{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+}

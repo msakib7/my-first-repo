@@ -4,12 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My first github repo</title>
 </head>
 <body>
-    <h1> this is for github</h1>
-    <h2>this is for push to my memory.</h2>
+    
+    <header class="head">
+        <h1> this is for github</h1>
+        <h2>this is for push to my memory.</h2>
+    </header>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima dolorum modi, cum enim consequatur nisi dolores odit explicabo, asperiores dignissimos odio quis debitis placeat aut quidem dicta labore accusantium?</p>
+    <div class="blog">
+        <h4> this is for division title</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima dolorum modi, cum enim consequatur nisi dolores odit explicabo, asperiores dignissimos odio quis debitis placeat aut quidem dicta labore accusantium?</p>
+    </div>
+
+    <main>
+        <section class="form">
+            <form>
+                <label for="name">Your Name
+                    <input type="text" id="name" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email
+                    <input type="text" id="email" placeholder="Your Email">
+                </label>
+                <label for="number">Your Number
+                    <input type="text" id="number" placeholder="Your Number">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one</legend>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">
+                        Vapa
+                    </label>
+                    <label for="citoi">
+                        <input type="radio" name="pitha" id="citoi">
+                        Chitoi
+                    </label>
+                    <label for="pakon">
+                        <input type="radio" name="pitha" id="pakon">
+                        Pakon
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select one or more</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa">
+                        Sorisa
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki">
+                        Sutki
+                    </label>
+                    <label for="dal">
+                        <input type="checkbox" name="vorta" id="dal">
+                        Dal
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special comment</legend>
+                    <textarea name="" id="" cols="60" rows="5"></textarea>
+                </fieldset>
+
+                <input type="reset" value="reset">
+                <input type="submit" value="Submit">
+                
+            </form>
+ 
+        </section>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Jukerbarg</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+       </table>
+
+       <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Jukerbarg</td>
+                    <td>Facebook</td>
+                    <td>$1300</td>
+                </tr>
+        </tbody>
+       </table>
+    </main>
 </body>
 </html>
